@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Cadastro de pessoas</h1>
+
+            <form action="create-people" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome: </label>
+                    <input name="name" class="form-control" placeholder="Fulano de tal">                    
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF: </label>
+                    <input name="cpf" class="form-control" placeholder="000.000.000-75">                    
+                </div>
+                <div class="form-group">
+                    <label for="age">Idade: </label>
+                    <input name="age" class="form-control" placeholder="25">                    
+                </div>
+                <div class="form-group">
+                    <label for="city">Cidade: </label>
+                    <input name="city" class="form-control" placeholder="Rio de Janeiro">                    
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone: </label>
+                    <input name="phone" class="form-control" placeholder="11 9 9999-9999">                    
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Enviar</button>
+            </form>
+            <br>
+            <a class="btn btn-default btn-block" href="peoples">Listar pessoas</a>
+        </div>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
